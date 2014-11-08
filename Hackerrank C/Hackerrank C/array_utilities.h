@@ -9,6 +9,6 @@
 #ifndef Hackerrank_C_array_utilities_h
 #define Hackerrank_C_array_utilities_h
 
-
+void print_array(int* A, int len);
 
 #endif

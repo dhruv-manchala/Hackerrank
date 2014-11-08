@@ -9,10 +9,9 @@
 
 #include <stdio.h>
 
-
 // Ad Hoc Solution
 
-int main(void)
+int service_lane(void)
 {
     int n;
     int t;
@@ -51,7 +50,7 @@ int main(void)
 // Dynamic Programming Solution
 
 /*
-int main(void)
+int service_lane(void)
 {
     int n;
     int t;
