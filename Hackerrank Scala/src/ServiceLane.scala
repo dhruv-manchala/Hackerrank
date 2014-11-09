@@ -1,6 +1,6 @@
 import scala.io.StdIn.readLine
 
-object Solution {
+object ServiceLane {
   
   def main(args: Array[String]) {
 
@@ -20,5 +20,5 @@ object Solution {
 	else if (curr > A(start)) maxWidth(A, start + 1, end, A(start))
 	else maxWidth(A, start + 1, end, curr)
   }
-    
-}
+     
+}	

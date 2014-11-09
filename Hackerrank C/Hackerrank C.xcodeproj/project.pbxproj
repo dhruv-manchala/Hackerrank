@@ -10,6 +10,8 @@
 		72207C401A0E100400BB138D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 72207C3F1A0E100400BB138D /* main.c */; };
 		72207C421A0E100400BB138D /* Hackerrank_C.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 72207C411A0E100400BB138D /* Hackerrank_C.1 */; };
 		72207C491A0E103900BB138D /* service_lane.c in Sources */ = {isa = PBXBuildFile; fileRef = 72207C481A0E103900BB138D /* service_lane.c */; };
+		72207C4B1A0E106D00BB138D /* sherlock_and_watson.c in Sources */ = {isa = PBXBuildFile; fileRef = 72207C4A1A0E106D00BB138D /* sherlock_and_watson.c */; };
+		72207C4E1A0E14B900BB138D /* array_utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 72207C4D1A0E14B900BB138D /* array_utilities.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +32,9 @@
 		72207C3F1A0E100400BB138D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		72207C411A0E100400BB138D /* Hackerrank_C.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Hackerrank_C.1; sourceTree = "<group>"; };
 		72207C481A0E103900BB138D /* service_lane.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = service_lane.c; sourceTree = "<group>"; };
+		72207C4A1A0E106D00BB138D /* sherlock_and_watson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sherlock_and_watson.c; sourceTree = "<group>"; };
+		72207C4C1A0E149600BB138D /* array_utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = array_utilities.h; sourceTree = "<group>"; };
+		72207C4D1A0E14B900BB138D /* array_utilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = array_utilities.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				72207C3F1A0E100400BB138D /* main.c */,
+				72207C4C1A0E149600BB138D /* array_utilities.h */,
+				72207C4D1A0E14B900BB138D /* array_utilities.c */,
 				72207C481A0E103900BB138D /* service_lane.c */,
+				72207C4A1A0E106D00BB138D /* sherlock_and_watson.c */,
 				72207C411A0E100400BB138D /* Hackerrank_C.1 */,
 			);
 			path = "Hackerrank C";
@@ -120,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72207C4E1A0E14B900BB138D /* array_utilities.c in Sources */,
+				72207C4B1A0E106D00BB138D /* sherlock_and_watson.c in Sources */,
 				72207C401A0E100400BB138D /* main.c in Sources */,
 				72207C491A0E103900BB138D /* service_lane.c in Sources */,
 			);
