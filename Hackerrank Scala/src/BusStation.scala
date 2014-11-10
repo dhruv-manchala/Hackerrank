@@ -5,31 +5,24 @@ object BusStation {
   def main(args: Array[String]) {
     readLine
     val L = readLine.split(" ").map(_.toInt).toList
-    validBusSizes(L)
+       
+    val min = L.min
+    val max = L.max
+    val sum = L.foldRight(0)(_ + _)
+    
+    for (i <- max to sum by min) {
+      if (sum % i == 0) validBusSize(i, L, 0)
+    }
   }
   
-  def validBusSizes(L: List[Int]) {
-    
-    def validBusSize(size: Int, L: List[Int], curr: Int): Boolean = {
+  def validBusSize(size: Int, L: List[Int], curr: Int) {
  
-      L match {        
-        case Nil => return curr == size
-        case head::tail if (curr < size) => 
-          return validBusSize(size, tail, curr + head)
-        case head::tail if (curr == size) =>
-          return validBusSize(size, tail, head)
-        case head::tail if (curr > size) => return false
-      }
-    }
-    
-    val min = L.max
-    val max = L.foldRight(0)(_ + _)
-    
-    for (i <- min to max + 1) {
-      if (max % i == 0) {
-        if (validBusSize(i, L, 0)) print(i + " ")
-      }
+    L match {        
+      case Nil if (curr == size) => print(size + " ") 
+      case head::tail if (curr < size) => 
+      	validBusSize(size, tail, curr + head)
+      case head::tail if (curr == size) => validBusSize(size, tail, head)
+      case head::tail if (curr > size) => return
     }
   }
-
 }
