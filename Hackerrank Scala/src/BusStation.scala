@@ -11,7 +11,7 @@ object BusStation {
   def validBusSizes(L: List[Int]) {
     
     def validBusSize(size: Int, L: List[Int], curr: Int): Boolean = {
-      
+ 
       L match {        
         case Nil => return curr == size
         case head::tail if (curr < size) => 

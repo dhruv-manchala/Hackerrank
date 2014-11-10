@@ -7,4 +7,12 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <stdbool.h>
 #include "array_utilities.h"
+
+int main(void)
+{
+    return 0;
+}

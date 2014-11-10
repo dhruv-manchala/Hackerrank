@@ -12,6 +12,8 @@
 		72207C491A0E103900BB138D /* service_lane.c in Sources */ = {isa = PBXBuildFile; fileRef = 72207C481A0E103900BB138D /* service_lane.c */; };
 		72207C4B1A0E106D00BB138D /* sherlock_and_watson.c in Sources */ = {isa = PBXBuildFile; fileRef = 72207C4A1A0E106D00BB138D /* sherlock_and_watson.c */; };
 		72207C4E1A0E14B900BB138D /* array_utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 72207C4D1A0E14B900BB138D /* array_utilities.c */; };
+		72298DC81A0EFAE400F0EF26 /* bus_station.c in Sources */ = {isa = PBXBuildFile; fileRef = 72298DC71A0EFAE400F0EF26 /* bus_station.c */; };
+		72AFCB1E1A113BD200A1CF93 /* cut_the_tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 72AFCB1D1A113BD200A1CF93 /* cut_the_tree.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +37,8 @@
 		72207C4A1A0E106D00BB138D /* sherlock_and_watson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sherlock_and_watson.c; sourceTree = "<group>"; };
 		72207C4C1A0E149600BB138D /* array_utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = array_utilities.h; sourceTree = "<group>"; };
 		72207C4D1A0E14B900BB138D /* array_utilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = array_utilities.c; sourceTree = "<group>"; };
+		72298DC71A0EFAE400F0EF26 /* bus_station.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bus_station.c; sourceTree = "<group>"; };
+		72AFCB1D1A113BD200A1CF93 /* cut_the_tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cut_the_tree.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +72,12 @@
 			isa = PBXGroup;
 			children = (
 				72207C3F1A0E100400BB138D /* main.c */,
-				72207C4C1A0E149600BB138D /* array_utilities.h */,
-				72207C4D1A0E14B900BB138D /* array_utilities.c */,
+				72AFCB1D1A113BD200A1CF93 /* cut_the_tree.c */,
+				72298DC71A0EFAE400F0EF26 /* bus_station.c */,
 				72207C481A0E103900BB138D /* service_lane.c */,
 				72207C4A1A0E106D00BB138D /* sherlock_and_watson.c */,
+				72207C4C1A0E149600BB138D /* array_utilities.h */,
+				72207C4D1A0E14B900BB138D /* array_utilities.c */,
 				72207C411A0E100400BB138D /* Hackerrank_C.1 */,
 			);
 			path = "Hackerrank C";
@@ -132,6 +138,8 @@
 				72207C4B1A0E106D00BB138D /* sherlock_and_watson.c in Sources */,
 				72207C401A0E100400BB138D /* main.c in Sources */,
 				72207C491A0E103900BB138D /* service_lane.c in Sources */,
+				72298DC81A0EFAE400F0EF26 /* bus_station.c in Sources */,
+				72AFCB1E1A113BD200A1CF93 /* cut_the_tree.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +249,7 @@
 				72207C471A0E100400BB138D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
